@@ -44,6 +44,8 @@ objective="rank:ndcg", lambdarank_pair_method="mean", enable_categorical=True
 | С очисткой от "выбросов" | 0.7262 |
 | Без очистки              | 0.7288 |
 
+**kendalltau**, посчитанный через scipy: 0.378
+
 Наиболее значимые фичи после обучения:
 ![Pasted image 20240429202042](https://github.com/dariamozglova/vk_test/assets/107386336/ebb62780-81f5-44fd-a3b0-5a2f50421dc7)
 
